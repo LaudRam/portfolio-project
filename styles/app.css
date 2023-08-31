@@ -1,10 +1,46 @@
 :root {
-  --primary-colour: rgb(227, 105, 105);
-  --secondary-colour: rgb(204, 88, 186);
+  --background-colour: #69b4ac;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+  --font-colour: #301a4b;
+  --accent-colour: #f9b9f2;
+}
+body {
+  background-color: var(--background-colour) !important;
+  font-family: var(--secondary-font);
 }
 h1 {
-  color: var(--primary-colour) !important;
+  color: var(--font-colour) !important;
+  font-family: var(--primary-font);
+  font-size: 90px !important;
+  font-weight: 700 !important;
+}
+h2 {
+  font-family: var(--primary-font);
+  font-size: 28px !important;
+  font-weight: 100 !important;
+  color: var(--font-colour) !important;
+  margin-bottom: 80px !important;
+}
+h3 {
+  font-family: var(--secondary-font) !important;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  color: var(--font-colour) !important;
+  line-height: 0 !important;
 }
 i {
   color: var(--secondary-colour);
+}
+.hero {
+  padding: 160px 0;
+}
+.btn {
+  background-color: var(--accent-colour) !important;
+  color: var(--font-colour) !important;
+  font-weight: 700 !important;
+  padding: 15px 25px !important;
+}
+.btn:hover {
+  color: var(--background-colour) !important;
 }
