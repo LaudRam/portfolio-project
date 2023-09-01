@@ -1,5 +1,6 @@
 :root {
   --background-colour: #69b4ac;
+  --background-secondary-colour: #f9b9f028;
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --font-colour: #301a4b;
@@ -7,7 +8,8 @@
 }
 body {
   background-color: var(--background-colour) !important;
-  font-family: var(--secondary-font);
+  font-family: var(--secondary-font) !important;
+  color: var(--font-colour) !important;
 }
 h1 {
   color: var(--font-colour) !important;
@@ -29,11 +31,23 @@ h3 {
   color: var(--font-colour) !important;
   line-height: 0 !important;
 }
+header {
+  color: var(--font-colour) !important;
+  font-family: var(--primary-font);
+  font-size: 50px !important;
+  font-weight: 600 !important;
+  padding-top: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 20px 20px 0;
+}
 i {
   color: var(--secondary-colour);
 }
 .hero {
-  padding: 160px 0;
+  padding: 160px 0 120px 0;
 }
 .btn {
   background-color: var(--accent-colour) !important;
@@ -43,4 +57,7 @@ i {
 }
 .btn:hover {
   color: var(--background-colour) !important;
+}
+.project {
+  margin: 80px auto 80px auto !important;
 }
