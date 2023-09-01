@@ -76,6 +76,7 @@ i {
 }
 .about-h1 {
   font-size: 60px !important;
+  text-align: center;
 }
 .about-content {
   font-size: 16px;
@@ -86,4 +87,13 @@ i {
 .my-image {
   border-radius: 20px;
   box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.16);
+  max-width: 100%;
+  height: auto;
+}
+.work-h2 {
+  margin: 20px auto 5px auto !important;
+  font-weight: 600 !important;
+}
+.highlight {
+  color: var(--accent-colour);
 }
