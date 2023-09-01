@@ -44,7 +44,19 @@ p {
   padding: 20px 20px 20px 0;
 }
 i {
-  color: var(--secondary-colour);
+  color: var(--font-colour);
+}
+.nav-style {
+  /* padding: 10px 150px !important; */
+}
+.navbar-brand,
+.nav-link {
+  color: var(--font-colour) !important;
+  font-family: var(--secondary-font) !important;
+  font-weight: 500 !important;
+}
+.active {
+  color: var(--accent-colour) !important;
 }
 .hero {
   padding: 160px 0 120px 0;
@@ -54,10 +66,24 @@ i {
   color: var(--font-colour) !important;
   font-weight: 700 !important;
   padding: 15px 25px !important;
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.16);
 }
 .btn:hover {
   color: var(--background-colour) !important;
 }
 .project {
   margin: 80px auto 80px auto !important;
+}
+.about-h1 {
+  font-size: 60px !important;
+}
+.about-content {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 40px 0;
+  margin: 0;
+}
+.my-image {
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.16);
 }
