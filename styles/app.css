@@ -97,3 +97,16 @@ i {
 .highlight {
   color: var(--accent-colour);
 }
+.contact-container {
+  margin: 10px auto;
+}
+.contact-link {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 8px;
+  text-decoration: none;
+  color: var(--font-colour);
+}
+.contact-link:hover {
+  color: var(--accent-colour);
+}
