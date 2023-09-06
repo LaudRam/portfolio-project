@@ -140,7 +140,37 @@ a.nav-link:hover {
   background-color: var(--font-colour);
   color: white;
 }
-.copyright a{
+.copyright a {
   text-decoration: none;
   color: var(--accent-colour);
+}
+
+@media (max-width: 576px) {
+  /* h1 {
+    font-size: 50px !important;
+  } */
+  h2 {
+    margin-bottom: 50px !important;
+  }
+  body {
+    justify-content: center !important;
+  }
+  .nav-style {
+    padding: 0 !important;
+  }
+  .hero {
+    padding: 100px 0 10px 0;
+  }
+  .project {
+    margin: 50px auto !important;
+  }
+  .landing-page {
+    display: none !important;
+  }
+  .col-sm-6 {
+    text-align: center;
+  }
+  .my-image {
+    display: none;
+  }
 }
