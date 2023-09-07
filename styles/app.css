@@ -136,6 +136,12 @@ a.nav-link:hover {
   color: var(--background-colour) !important;
   background: var(--accent-colour);
 }
+.copyright-p {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
 .copyright {
   background-color: var(--font-colour);
   color: white;
@@ -157,6 +163,9 @@ a.nav-link:hover {
   }
   .nav-style {
     padding: 0 !important;
+  }
+  .hide-in-mobile {
+    display: none;
   }
   .hero {
     padding: 100px 0 10px 0;
