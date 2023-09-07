@@ -152,14 +152,21 @@ a.nav-link:hover {
 }
 
 @media (max-width: 576px) {
-  /* h1 {
-    font-size: 50px !important;
-  } */
-  h2 {
-    margin-bottom: 50px !important;
-  }
   body {
     justify-content: center !important;
+  }
+  h1 {
+    font-size: 8vw !important;
+  }
+  h2 {
+    margin-bottom: 50px !important;
+    font-size: 4vw !important;
+  }
+  h3 {
+    font-size: 6vw !important;
+  }
+  p {
+    font-size: 3vw !important;
   }
   .nav-style {
     padding: 0 !important;
