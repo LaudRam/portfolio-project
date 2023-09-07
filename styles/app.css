@@ -156,17 +156,20 @@ a.nav-link:hover {
     justify-content: center !important;
   }
   h1 {
-    font-size: 10vw !important;
+    font-size: 14vw !important;
   }
   h2 {
     margin-bottom: 50px !important;
     font-size: 6vw !important;
   }
   h3 {
-    font-size: 8vw !important;
+    font-size: 10vw !important;
+  }
+  header {
+    font-size: 12vw !important;
   }
   p {
-    font-size: 4vw !important;
+    font-size: 5vw !important;
   }
   .nav-style {
     padding: 0 !important;
